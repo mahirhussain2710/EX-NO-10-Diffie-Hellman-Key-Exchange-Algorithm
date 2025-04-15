@@ -19,9 +19,8 @@ To Implement Diffie Hellman Key Exchange Algorithm
 5. Security: The difficulty of computing discrete logarithms ensures that the shared key remains secure even if public values are intercepted.
 
 ## Program:
+~~~
 #include <stdio.h>
-
-
 long long int mod_exp(long long int base, long long int exp, long long int mod) {
     long long int result = 1;
     while (exp > 0) {
@@ -65,8 +64,7 @@ int main() {
 
     return 0;
 }
-
-
+~~~
 ## Output:
 
 ![Screenshot 2025-04-15 143223](https://github.com/user-attachments/assets/21fb24c3-1a75-4d4d-aeaa-71c53f7ebb15)
